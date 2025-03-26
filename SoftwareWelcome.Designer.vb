@@ -59,7 +59,7 @@ Partial Class SoftwareWelcome
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(384, 18)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Copyright © 2020, ZioJoJo. All rights reserved."
+        Me.Label2.Text = "Copyright © 2025, ZygoteCode. All rights reserved."
         '
         'Label3
         '
