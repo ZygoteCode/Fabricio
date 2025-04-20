@@ -1,0 +1,36 @@
+[Settings]
+
+ScriptType = FileWrite
+
+[FileWrite]
+
+TargetFile = YourFileHere
+DeleteFileIfExists = false
+AppendToFileIfExists = false
+ContentToWrite = This is my file<br>And a new line<br>And the end line.
+
+[Events]
+
+PerformEvents = true
+PerformEventWriteSuccess = false
+ScriptEventWriteSuccess = none
+TimesEventWriteSuccess = 0
+PerformEventWriteError = false
+ScriptEventWriteError = none
+TimesEventWriteError = 0
+PerformEventWriteDeleted = false
+ScriptEventWriteDeleted = none
+TimesEventWriteDeleted = 0
+PerformEventWriteAppended = false
+ScriptEventWriteAppended = none
+TimesEventWriteAppended = 0
+PerformEventWriteReplaced = false
+ScriptEventWriteReplaced = none
+TimesEventWriteReplaced = 0
+
+[Execution]
+
+ExecuteAnother = false
+ScriptToExecute = Nothing lol
+RepeatIt = false
+RepeatTimes = 0

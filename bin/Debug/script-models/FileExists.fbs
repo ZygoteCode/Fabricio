@@ -1,0 +1,24 @@
+[Settings]
+
+ScriptType = FileExists
+
+[FileExists]
+
+TargetFile = YourFileHere
+
+[Events]
+
+PerformEvents = true
+PerformEventFileExists = true
+ScriptEventFileExists = none
+TimesEventFileExists = 1
+PerformEventFileNotExist = true
+ScriptEventFileNotExist = none
+TimesEventFileNotExist = 1
+
+[Execution]
+
+ExecuteAnother = false
+ScriptToExecute = Nothing lol
+RepeatIt = false
+RepeatTimes = 0

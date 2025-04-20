@@ -1,0 +1,45 @@
+[Settings]
+
+ScriptType = MessageBox
+
+[MessageBox]
+
+Caption = This is a caption
+Text = This is the first line<br>This is the second line<br>This is the third line<br>And this is the end lol
+Buttons = YesNo
+Icon = Error
+
+[Events]
+
+PerformEvents = true
+PerformEventDialogOK = false
+ScriptEventDialogOK = none
+TimesEventDialogOK = 0
+PerformEventDialogCancel = false
+ScriptEventDialogCancel = none
+TimesEventDialogCancel = 0
+PerformEventDialogYes = false
+ScriptEventDialogYes = none
+TimesEventDialogYes = 0
+PerformEventDialogNone = false
+ScriptEventDialogNone = none
+TimesEventDialogNone = 0
+PerformEventDialogNo = false
+ScriptEventDialogNo = none
+TimesEventDialogNo = 0
+PerformEventDialogAbort = false
+ScriptEventDialogAbort = none
+TimesEventDialogAbort = 0
+PerformEventDialogRetry = false
+ScriptEventDialogRetry = none
+TimesEventDialogRetry = 0
+PerformEventDialogIgnore = false
+ScriptEventDialogIgnore = none
+TimesEventDialogIgnore = 0
+
+[Execution]
+
+ExecuteAnother = false
+ScriptToExecute = Nothing lol
+RepeatIt = false
+RepeatTimes = 0
